@@ -45,7 +45,14 @@ Pipeline permet d’automatiser le flux de traitement et d’éviter les fuites 
 		- Vérification que la MAE maximale ne dépasse pas un seuil défini
 
 
+--> Bonus : Intégration Continue avec GitHub Actions
 
+    Configure une GitHub Action pour que les tests soient exécutés automatiquement à chaque push .
+
+Cela garantit que le code reste toujours fonctionnel.
+
+Exemple de fichier .github/workflows/python-tests.yml:
+(voir la suite sur Simplonline)
 
 
 
